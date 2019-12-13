@@ -1,0 +1,38 @@
+<Extensions>
+  <Version>1.6</Version>
+  <Panel>
+    <PanelId>panel_3</PanelId>
+    <Type>Home</Type>
+    <Icon>Proximity</Icon>
+    <Order>4</Order>
+    <Name>UltrasoundVolume</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Ultrasound</Name>
+      <Row>
+        <Name/>
+        <Widget>
+          <WidgetId>widget_11</WidgetId>
+          <Name>This will change the ultrasound volume level.</Name>
+          <Type>Text</Type>
+          <Options>size=4;fontSize=normal;align=left</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>widget_12</WidgetId>
+          <Name>Altering this setting could affect pairing capabilities.</Name>
+          <Type>Text</Type>
+          <Options>size=4;fontSize=normal;align=left</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Volume:</Name>
+        <Widget>
+          <WidgetId>ultrasound_level_slider</WidgetId>
+          <Type>Slider</Type>
+          <Options>size=3</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
