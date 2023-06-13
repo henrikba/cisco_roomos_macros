@@ -1,6 +1,9 @@
 # cisco_roomos_macros
 These are either macros I'm using on my Cisco Room Kit in the home office, or samples/playing around. Mostly to have a backup, but also to share my usecases.
 
+## pip_layout_control.js
+When a "part" of the call is in a smaller window (Picture-in-picture, aka "PIP"), you might want to move the PIP around to not cover important parts of the video. This is easy on touch-enabled devices, but tricker via the Navigator. RoomOS 11 allows moving the self view, but not yet the minimized presentation or the floating call on top of presentation in the "Floating" layout. This is a quick-n-dirty fix for this issue :)
+
 ## slidelayout_automator
 Using a (single screen) room device next to a laptop with a Webex Teams client, you can easily optimize the layout, offloading the content to the client to spend more screen real estate on the video call.
 This code monitors presentation start, and will automatically minimize incoming presentation once started (by a far end user).
