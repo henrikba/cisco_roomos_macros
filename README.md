@@ -1,8 +1,18 @@
 # cisco_roomos_macros
-These are either macros I'm using on my Cisco Room Kit in the home office, or samples/playing around. Mostly to have a backup, but also to share my usecases.
+These are either macros I'm using on my Cisco Room Kit/Cisco Desk Pro in the office/home office, or samples/playing around. Mostly to have a backup, but also to share my usecases.
 
-## pip_layout_control.js
+## USB_mic_toggler
+Make it easier to use a USB headset with Desk series, while using the (usually much better) internal microphone for audio pickup. Allow temporarily override to built-in mic in headset (especially when there are loud voices nearby), while resetting it after each call.
+
+## mediastatistics_toggler
+"Stats for nerds" function, for easier access to toggle the media statistics overlay on/off.
+
+## pip_layout_control
 When a "part" of the call is in a smaller window (Picture-in-picture, aka "PIP"), you might want to move the PIP around to not cover important parts of the video. This is easy on touch-enabled devices, but tricker via the Navigator. RoomOS 11 allows moving the self view, but not yet the minimized presentation or the floating call on top of presentation in the "Floating" layout. This is a quick-n-dirty fix for this issue :)
+
+## proximity_toggler
+This makes it easier to toggle ultrasound pairing on/off for devices. Very handy if you have multiple devices in a space, and want a more robust pairing on *one* of the devices (eg turn off the ultrasound playback on other devices). Leverages a new xConfig specifically for this. 
+**Note:** It's better to use this new API vs. the old method by reducing the Ultrasound MaxVolume. The latter caused a diagnostics warning and a lot of notifications listed in Control Hub.
 
 ## slidelayout_automator
 Using a (single screen) room device next to a laptop with a Webex Teams client, you can easily optimize the layout, offloading the content to the client to spend more screen real estate on the video call.
