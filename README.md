@@ -1,6 +1,9 @@
 # cisco_roomos_macros
 These are either macros I'm using on my Cisco Room Kit/Cisco Desk Pro in the office/home office, or samples/playing around. Mostly to have a backup, but also to share my usecases.
 
+## autostart_local_preview
+For Cisco Desk Pro using HDMI out (dual screen setup), this automates so you won't loose compute on second screen. See more info on suggested setup in the macro comment.
+
 ## USB_mic_toggler
 Make it easier to use a USB headset with Desk series, while using the (usually much better) internal microphone for audio pickup. Allow temporarily override to built-in mic in headset (especially when there are loud voices nearby), while resetting it after each call.
 
