@@ -1,3 +1,6 @@
+# demo_call
+To quicker demonstrate 1080p60 calls between two RoomOS devices; automating place call, accept call on second device, mute mic on both, and configure desired camera mode.
+
 # cisco_roomos_macros
 These are either macros I'm using on my Cisco Room Kit/Cisco Desk Pro in the office/home office, or samples/playing around. Mostly to have a backup, but also to share my usecases.
 
