@@ -1,14 +1,14 @@
-# demo_call
-To quicker demonstrate 1080p60 calls between two RoomOS devices; automating place call, accept call on second device, mute mic on both, and configure desired camera mode.
-
 # cisco_roomos_macros
 These are either macros I'm using on my Cisco Room Kit/Cisco Desk Pro in the office/home office, or samples/playing around. Mostly to have a backup, but also to share my usecases.
 
-## autostart_local_preview
-For Cisco Desk Pro using HDMI out (dual screen setup), this automates so you won't loose compute on second screen. See more info on suggested setup in the macro comment.
+## demo_call
+To quicker demonstrate 1080p60 calls between two RoomOS devices; automating place call, accept call on second device, mute mic on both, and configure desired camera mode.
 
 ## USB_mic_toggler
 Make it easier to use a USB headset with Desk series, while using the (usually much better) internal microphone for audio pickup. Allow temporarily override to built-in mic in headset (especially when there are loud voices nearby), while resetting it after each call.
+
+## autostart_local_preview
+For Cisco Desk Pro using HDMI out (dual screen setup), this automates so you won't loose compute on second screen. See more info on suggested setup in the macro comment.
 
 ## mediastatistics_toggler
 "Stats for nerds" function, for easier access to toggle the media statistics overlay on/off.
